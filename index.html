@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FrDreamoHeh | Minecraft Developer</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0b0f1a;
+    color:#fff;
+}
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#00d4ff;
+    border-radius:10px;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+    background:
+    radial-gradient(circle at top,#00d4ff20,transparent 40%),
+    linear-gradient(135deg,#0b0f1a,#111827);
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.logo{
+    font-size:4rem;
+    font-weight:700;
+    background:linear-gradient(90deg,#00d4ff,#3b82f6);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    transition:.35s;
+    cursor:pointer;
+}
+
+.logo:hover{
+    transform:scale(1.05);
+    text-shadow:0 0 25px #00d4ff;
+}
+
+.realname{
+    color:#9ca3af;
+    margin-top:8px;
+    margin-bottom:15px;
+}
+
+.tagline{
+    font-size:1.1rem;
+    color:#d1d5db;
+    max-width:700px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 30px;
+    border-radius:12px;
+    background:linear-gradient(90deg,#00d4ff,#3b82f6);
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 25px #00d4ff80;
+}
+
+section{
+    padding:80px 0;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#111827;
+    border:1px solid #1f2937;
+    border-radius:16px;
+    padding:25px;
+    transition:.35s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#00d4ff;
+    box-shadow:0 0 25px rgba(0,212,255,.25);
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#00d4ff;
+}
+
+.card p{
+    color:#cbd5e1;
+}
+
+.skill{
+    text-align:center;
+    font-weight:500;
+}
+
+.skill:hover{
+    color:#00d4ff;
+}
+
+.contact{
+    text-align:center;
+}
+
+.discord{
+    font-size:1.2rem;
+    margin-top:15px;
+    color:#00d4ff;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    color:#94a3b8;
+    border-top:1px solid #1f2937;
+}
+
+.glow{
+    transition:.3s;
+}
+
+.glow:hover{
+    color:#00d4ff;
+    text-shadow:0 0 15px #00d4ff;
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="container">
+        <h1 class="logo">FrDreamoHeh</h1>
+        <p class="realname">Real Name: Aarav Srivastava</p>
+
+        <p class="tagline">
+            ⚙️ Minecraft Developer • 🔧 Config Specialist • 🚀 Server Optimization • 🌐 Proxy Networks • 📦 Network Setup
+        </p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="title glow">👋 About Me</h2>
+
+        <div class="card">
+            <p>
+                Experienced Minecraft Developer specializing in plugin
+                configuration, server setup, network management, and
+                performance optimization. Skilled with Paper, Purpur,
+                Velocity, BungeeCord, DeluxeMenus, TAB, LuckPerms,
+                ShopGUI+, and various Minecraft server solutions.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="title glow">⚙️ Skills</h2>
+
+        <div class="grid">
+            <div class="card skill">🔧 Plugin Configuration</div>
+            <div class="card skill">🚀 Server Optimization</div>
+            <div class="card skill">🌐 Velocity Setup</div>
+            <div class="card skill">🔗 BungeeCord Networks</div>
+            <div class="card skill">📋 DeluxeMenus</div>
+            <div class="card skill">🏆 LuckPerms</div>
+            <div class="card skill">📊 TAB Setup</div>
+            <div class="card skill">🛒 ShopGUI+</div>
+            <div class="card skill">🎮 Minecraft Networks</div>
+            <div class="card skill">🖥️ VPS Management</div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="title glow">📂 Experience</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>⚡ Server Development</h3>
+                <p>
+                    Building and configuring Minecraft servers with
+                    professional menus, permissions, scoreboards,
+                    kits, warps, ranks, and custom systems.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🌐 Network Setup</h3>
+                <p>
+                    Experience with Velocity and BungeeCord network
+                    configuration, backend integration, and player routing.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🚀 Optimization</h3>
+                <p>
+                    Optimizing Paper and Purpur servers for maximum
+                    performance, lower lag, and better stability.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container contact">
+        <h2 class="title glow">📞 Contact</h2>
+
+        <div class="card">
+            <h3>Let's Work Together</h3>
+            <p>Available for Minecraft server setups, configurations, optimization, and network development.</p>
+
+            <div class="discord">
+                💬 Discord: <strong>frdreamoheh</strong>
+           <div class="email">
+                📧 Email: <strong>aaravsrivastava142@gmail.com</strong>
+
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+    © 2026 FrDreamoHeh • Minecraft Developer Portfolio
+</footer>
+
+</body>
+</html>
